@@ -89,6 +89,7 @@ object Chapter6Example {
     seperator
     println(unit(1)(rand)._1)
 
-    println(map[Int,Double](int)((_.toDouble))(rand))
+    println(map[Int, Double](int)((_.toDouble))(rand))
+    seperator
   }
 }
